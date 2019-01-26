@@ -1,0 +1,16 @@
+body {
+    background-image: url("../assets/bgtexture.jpg");
+    background-size: 37.5rem 25rem;
+}
+
+/* The XD files container width are 102.5rem. 
+   Using this instead of margins because margins fuck with responsiveness. 
+   As long as we use <div class="container-fluid"><div class="container"></div></div> everything should line up nicely. */
+.container {
+    max-width: 102.5rem;
+}
+
+.company-logo {
+    max-width: 6.25rem;
+    max-height: 1.975rem;
+}
