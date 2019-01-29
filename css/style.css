@@ -14,3 +14,38 @@ body {
     max-width: 6.25rem;
     max-height: 1.975rem;
 }
+
+.adjust{
+    margin-left: 20;
+    margin-right: 20;
+}
+
+.padding_cst{
+    padding-bottom: 2.27rem;
+}
+
+.move{
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.movep{
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+@media (max-width: 1570px){
+    .padding_cst{
+        padding-bottom: .4rem;
+    }
+}
+
+@media (max-width: 1323px){
+    .move{
+        padding: .15rem 2rem 0rem 2rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .move{
+        padding: 2rem 2rem 0rem 2rem;
+    }
+}

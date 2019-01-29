@@ -1,19 +1,11 @@
-h1 {
-    color: #5F002B;
-}
-
-h2 {
-    color: #5F002B;
-}
-
-p {
-    color: #5F002B
-}
-
-.burgandy {
-    color: #5F002B;
+body{
+    color: #5F002B !important;
 }
 
 .nav-link {
-    color: #5F002B;
+    color: #5F002B !important;
+}
+
+.whitebg{
+    background-color: white;
 }

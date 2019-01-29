@@ -13,3 +13,10 @@ h2 {
 .fugaz-one {
     font-family: 'Fugaz One', cursive;
 }
+
+p{
+    font-family: 'Montauk';
+    font-size: 1.25rem;
+}
+
+@font-face { font-family: Montauk; src: url('../Font/Montauk-Regular.otf'); } 
