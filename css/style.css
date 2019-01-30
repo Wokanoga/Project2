@@ -6,8 +6,10 @@ body {
 /* The XD files container width are 102.5rem. 
    Using this instead of margins because margins fuck with responsiveness. 
    As long as we use <div class="container-fluid"><div class="container"></div></div> everything should line up nicely. */
-.container {
-    max-width: 102.5rem;
+@media (min-width: 1600px){
+    .container {
+        max-width: 1500px !important;
+    }
 }
 
 .company-logo {
@@ -25,9 +27,28 @@ body {
     margin-top: 4rem;
 }
 
-@media (min-width: 1600px){
-    .container {
-        max-width: 1500px !important;
-    }
+.image-border {
+    border-radius: 0;
+    border-width: .625rem;
+    border-style: solid;
+    border-color: white;
 }
 
+.photo-row-margin {
+    margin-top: 1.0625rem;
+}
+
+.photo-col-padding {
+    padding-left: .53125rem;
+    padding-right: .53125rem;
+}
+
+.cater-row-margin {
+    margin-top: 5rem;
+}
+
+.headerbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
