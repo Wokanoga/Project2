@@ -19,4 +19,23 @@ p{
     font-size: 1.25rem;
 }
 
-@font-face { font-family: Montauk; src: url('../Font/Montauk-Regular.otf'); } 
+.font-down{
+    font-size: large;
+}
+
+.font-up{
+    font-size: xx-large;
+}
+
+.font-up-{
+    font-size: xx-large;
+}
+
+@font-face { font-family: Montauk; src: url('../Font/Montauk-Light.otf'); } 
+
+
+@media (max-width: 1199px){
+    .font-up-{
+        font-size: x-large;
+    }
+}
