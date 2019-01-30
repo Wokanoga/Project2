@@ -97,3 +97,39 @@ hr {
         max-width: 1500px !important;
     }
 }
+
+.about-1 {
+    background-image: url('../assets/AboutMain.jpg');
+    background-size: cover;
+    height: 100hv;
+}
+
+.footer-margin{
+    margin-top: 4rem;
+}
+
+.image-border {
+    border-radius: 0;
+    border-width: .625rem;
+    border-style: solid;
+    border-color: white;
+}
+
+.photo-row-margin {
+    margin-top: 1.0625rem;
+}
+
+.photo-col-padding {
+    padding-left: .53125rem;
+    padding-right: .53125rem;
+}
+
+.cater-row-margin {
+    margin-top: 5rem;
+}
+
+.headerbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
