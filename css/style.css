@@ -17,6 +17,16 @@ body {
     max-height: 1.975rem;
 }
 
+.about-1 {
+    background-image: url('../assets/AboutMain.jpg');
+    background-size: cover;
+    height: 100hv;
+}
+
+.footer-margin{
+    margin-top: 4rem;
+}
+
 .image-border {
     border-radius: 0;
     border-width: .625rem;
