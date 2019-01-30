@@ -24,3 +24,10 @@ body {
 .footer-margin{
     margin-top: 4rem;
 }
+
+@media (min-width: 1600px){
+    .container {
+        max-width: 1500px !important;
+    }
+}
+
