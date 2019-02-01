@@ -15,7 +15,7 @@ h2 {
 }
 
 p{
-    font-family: 'Montauk';
+    font-family: 'Montauk-Light';
     font-size: 1.25rem;
 }
 
@@ -31,8 +31,10 @@ p{
     font-size: xx-large;
 }
 
-@font-face { font-family: Montauk; src: url('../Font/Montauk-Light.otf'); } 
-
+@font-face { 
+    font-family: Montauk-Light; 
+    src: url('../Font/Montauk-Light.otf');
+ }
 
 @media (max-width: 1199px){
     .font-up-{
