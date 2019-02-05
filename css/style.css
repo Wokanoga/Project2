@@ -98,6 +98,18 @@ hr {
     }
 }
 
+@media (max-width: 991.5px){
+    .margin-about{
+        padding-right: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 236px){
+    .about-img {
+        display: none;
+    }
+}
+
 .footer-margin{
     margin-top: 4rem;
 }
@@ -140,16 +152,3 @@ hr {
     background-size: cover;
     height: 500px;
 }
-
-@media (max-width: 991.5px){
-    .margin-about{
-        padding-right: 0rem;
-        margin-bottom: 1rem;
-    }
-}
-@media (max-width: 236px){
-    .about-img {
-        display: none;
-    }
-}
-
