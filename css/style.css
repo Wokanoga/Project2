@@ -96,7 +96,6 @@ hr {
     max-width: 1500px !important;
   }
 }
-
 .about-1 {
   background-image: url("../assets/AboutMain.jpg");
   background-size: cover;
@@ -202,3 +201,29 @@ hr {
     max-width: 100%;
   }
 }
+.about-text {
+    line-height: 1.2rem;
+}
+
+.pic-height {
+    height: 50vh;
+    padding: 0rem;
+}
+.about-img {
+    background-image: url('../assets/AboutMain.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+@media (max-width: 991.5px){
+    .margin-about{
+        padding-right: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 236px){
+    .about-img {
+        display: none;
+    }
+}
+
