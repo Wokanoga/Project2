@@ -1,6 +1,6 @@
 body {
-    background-image: url("../assets/bgtexture.jpg");
-    background-size: 37.5rem 25rem;
+  background-image: url("../assets/bgtexture.jpg");
+  background-size: 37.5rem 25rem;
 }
 
 /* The XD files container width are 102.5rem. 
@@ -8,128 +8,236 @@ body {
    As long as we use <div class="container-fluid"><div class="container"></div></div> everything should line up nicely. */
 
 .company-logo {
-    max-width: 6.25rem;
-    max-height: 1.975rem;
+  max-width: 6.25rem;
+  max-height: 1.975rem;
 }
 
-.adjust{
-    margin-left: 20;
-    margin-right: 20;
+.adjust {
+  margin-left: 20;
+  margin-right: 20;
 }
 
-.padding_cst{
-    padding-bottom: 2.27rem;
+.padding_cst {
+  padding-bottom: 2.27rem;
 }
 
-.move{
-    padding: 2rem 2rem 0rem 2rem;
+.move {
+  padding: 2rem 2rem 0rem 2rem;
 }
 
-.movep{
-    padding: 0rem 2rem 0rem 2rem;
+.movep {
+  padding: 0rem 2rem 0rem 2rem;
 }
 
-.mt-custom{
-    margin-top: -1.8rem;
+.mt-custom {
+  margin-top: -1.8rem;
 }
 
-.mt-custom-line{
-    margin-top: -.7rem;
+.mt-custom-line {
+  margin-top: -0.7rem;
 }
 
-.mt-custom-again{
-    margin-top: -.8rem;
+.mt-custom-again {
+  margin-top: -0.8rem;
 }
 
-.mb-custom{
-    margin-bottom: 6rem;
+.mb-custom {
+  margin-bottom: 6rem;
 }
 
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: .5px;
-    border-color:rgb(160, 45, 97);
-} 
+.heroimg-catering{
+  display: flex;
+  justify-content: start;
+  width: 960;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(160, 45, 97);
+}
+
+.fill{
+  width: 100vw;
+}
 
 .col-custom {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 1.333333%;
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 1.333333%;
 }
 
-.customw{
-    width: 96%;
+.customw {
+  width: 96%;
 }
 
-@media (max-width: 767px){
-    .customw{
-        width: 94.75%;
-        margin-top: 2rem;
-    }
+@media (max-width: 767px) {
+  .customw {
+    width: 94.75%;
+    margin-top: 2rem;
+  }
 }
 
-
-@media (max-width: 1600px){
-    .padding_cst{
-        padding-bottom: .4rem;
-    }
-    .move{
-        padding: .15rem 2rem 0rem 2rem;
-    }
+@media (max-width: 1600px) {
+  .padding_cst {
+    padding-bottom: 0.4rem;
+  }
+  .move {
+    padding: 0.15rem 2rem 0rem 2rem;
+  }
 }
 
-@media (max-width: 1199px){
-    .move{
-        padding: 2rem 2rem 0rem 2rem;
-    }
-    .customw{
-        margin-top: 2rem;
-    }
+@media (max-width: 1199px) {
+  .move {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  .customw {
+    margin-top: 2rem;
+  }
 }
 
-@media (min-width: 1600px){
-    .container {
-        max-width: 1500px !important;
-    }
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
+  }
 }
-
 .about-1 {
-    background-image: url('../assets/AboutMain.jpg');
-    background-size: cover;
-    height: 100hv;
+  background-image: url("../assets/AboutMain.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
-.footer-margin{
-    margin-top: 4rem;
+.footer-margin {
+  margin-top: 4rem;
 }
 
-.image-border {
-    border-radius: 0;
-    border-width: .625rem;
-    border-style: solid;
-    border-color: white;
+.image-border-padding {
+  border-radius: 0;
+  border-width: 0.625rem;
+  border-style: solid;
+  border-color: white;
 }
 
 .photo-row-margin {
-    margin-top: 1.0625rem;
-}
-
-.photo-col-padding {
-    padding-left: .53125rem;
-    padding-right: .53125rem;
+  margin-top: 1.0625rem;
 }
 
 .cater-row-margin {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .headerbar {
-    display: flex;
-    justify-content: center;
-    background-color: white;
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
+
+.mt-catering{
+  margin-top: 5rem;
+}
+
+
+/* Photo Page Grid */
+.photo-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.photo-col {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.col-hack {
+    flex: 25%;
+  max-width: 25%;
+   padding: 0 4px;
+}
+
+.photo-col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  padding: 0 4px;
+}
+
+.col-hack img {
+    margin-top: 8px;
+  vertical-align: middle;
+  padding: 0 4px;
+}
+
+@media screen and (max-width: 1400px) {
+    .photo-col {
+      flex: 33.3%;
+      max-width: 33.3%;
+    }
+    .col-hack {
+        flex: 100%;
+        max-width: 100%;
+        flex-direction: row;
+    }
+    /* Don't Ask */
+    .col-hack img {
+      flex: 33%.05;
+      max-width: 33.05%;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .photo-col {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .col-hack {
+        flex: 50%;
+      max-width: 50%;
+    }
+    .col-hack img {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .photo-col {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .col-hack {
+      flex: 100%;
+    max-width: 100%;
+  }
+}
+.about-text {
+    line-height: 1.2rem;
+}
+
+.pic-height {
+    height: 50vh;
+    padding: 0rem;
+}
+.about-img {
+    background-image: url('../assets/AboutMain.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+@media (max-width: 991.5px){
+    .margin-about{
+        padding-right: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 236px){
+    .about-img {
+        display: none;
+    }
+}
+

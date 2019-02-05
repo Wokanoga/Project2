@@ -31,6 +31,10 @@ p{
     font-size: xx-large;
 }
 
+.line-spaceing{
+    line-height: 1.3rem;
+}
+
 @font-face { 
     font-family: Montauk-Light; 
     src: url('../Font/Montauk-Light.otf');
