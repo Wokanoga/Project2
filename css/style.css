@@ -107,7 +107,6 @@ hr {
     max-width: 1500px !important;
   }
 }
-
 .about-1 {
   background-image: url("../assets/AboutMain.jpg");
   background-size: cover;
@@ -116,21 +115,6 @@ hr {
 
 .footer-margin {
   margin-top: 4rem;
-}
-
-.image-border-padding {
-  border-radius: 0;
-  border-width: 0.625rem;
-  border-style: solid;
-  border-color: white;
-}
-
-.photo-row-margin {
-  margin-top: 1.0625rem;
-}
-
-.cater-row-margin {
-  margin-top: 5rem;
 }
 
 .headerbar {
@@ -156,64 +140,26 @@ hr {
   padding: 0 4px;
 }
 
-.col-hack {
-    flex: 25%;
-  max-width: 25%;
-   padding: 0 4px;
-
-}
-
 .photo-col img {
   margin-top: 8px;
   vertical-align: middle;
-  padding: 0 4px;
+  border-radius: 0;
+  border-width: 0.625rem;
+  border-style: solid;
+  border-color: white;
+/*   padding: 0 4px; */
 }
-
-.col-hack img {
-    margin-top: 8px;
-  vertical-align: middle;
-  padding: 0 4px;
-}
-
-@media screen and (max-width: 1400px) {
-    .photo-col {
-      flex: 33.3%;
-      max-width: 33.3%;
-    }
-    .col-hack {
-        flex: 100%;
-        max-width: 100%;
-        flex-direction: row;
-    }
-    /* Don't Ask */
-    .col-hack img {
-      flex: 33%.05;
-      max-width: 33.05%;
-    }
-  }
 
 @media screen and (max-width: 1000px) {
     .photo-col {
       flex: 50%;
       max-width: 50%;
     }
-    .col-hack {
-        flex: 50%;
-      max-width: 50%;
-    }
-    .col-hack img {
-      flex: 100%;
-      max-width: 100%;
-    }
   }
 
 @media screen and (max-width: 600px) {
   .photo-col {
     flex: 100%;
-    max-width: 100%;
-  }
-  .col-hack {
-      flex: 100%;
     max-width: 100%;
   }
 }
