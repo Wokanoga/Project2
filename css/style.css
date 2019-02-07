@@ -107,6 +107,18 @@ hr {
     max-width: 1500px !important;
   }
 }
+
+@media (max-width: 991.5px){
+    .margin-about{
+        padding-right: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 236px){
+    .about-img {
+        display: none;
+    }
+}
 .about-1 {
   background-image: url("../assets/AboutMain.jpg");
   background-size: cover;
@@ -176,16 +188,3 @@ hr {
     background-size: cover;
     height: 500px;
 }
-
-@media (max-width: 991.5px){
-    .margin-about{
-        padding-right: 0rem;
-        margin-bottom: 1rem;
-    }
-}
-@media (max-width: 236px){
-    .about-img {
-        display: none;
-    }
-}
-
